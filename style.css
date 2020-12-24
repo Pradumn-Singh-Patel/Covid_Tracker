@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+
+
+.outer{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.get{
+    background-color: crimson;
+    border-radius: 15px;
+    width: 20%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img{
+    position: absolute;
+    right: 0px;
+    left: 639px;
+    top: 67px;
+    bottom: 0px;
+}
+
+
+.card{
+    position: absolute;
+    background-color: black;
+    width: 55%;
+    height: 27%;
+    top: 100%;
+    left: 3%;
+}
+
+
+.card1{
+    background-color: yellow;
+    width: 27%;
+    height: 70%;
+    margin-top: 2.5%;
+    margin-left: 2%;
+    border-radius: 15px;
+}
+
+
+.card2{
+    background-color: crimson;
+    position: absolute;
+    width: 27%;
+    height: 70%;
+    margin-top: 2.5%;
+    border-radius: 15px;
+    left: 36%;
+}
+
+
+.card3{
+    background-color: greenyellow;
+    position: absolute;
+    width: 27%;
+    height: 70%;
+    margin-top: 2.5%;
+    border-radius: 15px;
+    left: 70%;
+}
+
+
+#search{
+  height: 62px;
+  border-radius: 15px;
+}
+
+
+#country{
+    margin-top: 5%;
+    margin-left: 5%;   
+}
