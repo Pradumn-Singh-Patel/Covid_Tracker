@@ -27,6 +27,8 @@ document.getElementById('button').addEventListener('click', () => {
             document.getElementById('card2').innerHTML = data.deaths.value
             document.getElementById('card3').innerHTML = data.recovered.value
             document.getElementById('country_name').innerHTML = `<div style="color: white; font-size: 100%; font-weight: bold;">${val.toUpperCase()} :</div>`
+            document.getElementById('search').value=''
         })
         .catch()
 })
+
