@@ -1,10 +1,7 @@
-console.log('pradumn patel')
-
 fetch('https://covid19.mathdro.id/api')
     .then((response) => {
         return response.json()
-
-    })
+ })
     .then((data) => {
         console.log(data)
         document.getElementById('card1').innerHTML = data.confirmed.value
