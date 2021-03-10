@@ -58,21 +58,38 @@ li:hover{
 
 .card1{
     background-color: yellow;
+    position: absolute;
     width: 27%;
     height: 70%;
     margin-top: 2.5%;
     margin-left: 2%;
     border-radius: 15px;
+    animation: card1 7s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes card1 {
+  from {left: 0px;}
+  to {left: 500px;}
+  
 }
 
 .card2{
     background-color: crimson;
-    position: absolute;
+    position: absolute; 
     width: 27%;
     height: 70%;
     margin-top: 2.5%;
     border-radius: 15px;
     left: 36%;
+    animation: card2 7s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes card2 {
+  from {left: 500px;}
+  to {left: 1100px;}
+  
 }
 
 .card3{
@@ -83,7 +100,16 @@ li:hover{
     margin-top: 2.5%;
     border-radius: 15px;
     left: 70%;
+    animation: card3 7s infinite;
+    animation-timing-function: linear;
 }
+
+@keyframes card3 {
+  from {left: 1000px;}
+  to {left: 1700px;}
+  
+} 
+
 
 .search{
   height: 62px;
@@ -117,7 +143,17 @@ li:hover{
     margin-left: 5%;   
     font-size: 300%; 
     font-weight: bold;
+    position: absolute;
+    animation: country 7s infinite;
+    animation-timing-function: linear;
 }
+
+@keyframes country {
+  from {left: 0px;}
+  to {left: 500px;}
+  
+}
+
 
 .para{
     font-size: 230%;
@@ -128,7 +164,23 @@ li:hover{
     height: 10%;
     font-size: 210%;
     font-weight: 500;
+    position: relative;
+    animation: mymove 7s infinite;
+    animation-timing-function: linear;
 }
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 700px;}
+  from {background-color: red;}
+  to {background-color: black;}
+}
+
+/* @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  
+  } */
 
 .img{
     position: absolute;
